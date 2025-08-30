@@ -42,6 +42,16 @@
       line-height: 1.7;
       margin-bottom: 0.9rem;
     }
+    .run-link {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s, text-decoration 0.2s;
+      cursor: pointer;
+    }
+    .run-link:hover, .run-link:focus {
+      color: #ff5500;
+      text-decoration: underline;
+    }
     .contact {
       margin: 1.3em 0 0.2em 0;
       font-size: 1.04rem;
@@ -88,7 +98,7 @@
     <h1>&lt;Hey, I'm Nathan /&gt;</h1>
     <div class="bio">
       Powered by caffeine and optimism.<br>
-      I run.
+      <a class="run-link" href="https://www.strava.com/athletes/2512330" target="_blank" rel="noopener noreferrer">I run.</a>
     </div>
     <h2>Nathan in the wild:</h2>
     <ul class="links">
