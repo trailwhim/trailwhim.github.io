@@ -52,11 +52,12 @@
     }
     a {
       color: #215686;
-      text-decoration: underline;
+      text-decoration: none;
       transition: color 0.2s;
     }
     a:hover {
       color: #0b2545;
+      text-decoration: underline; /* Optional: remove this line if you never want underline. */
     }
     footer {
       margin-top: 2rem;
@@ -69,14 +70,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>&#60;Hey, I'm Nathan /&#62;</h1>
+    <h1>&lt;Hey, I'm Nathan /&gt;</h1>
     <div class="bio">
       Self-proclaimed digital explorer.<br>
       If it ain't broke, my curiosity "fixes" it.<br>
       Pursuing the purchase of my childhood TI99/4A.<br>
       Powered by curiosity and eternal optimism.
     </div>
-
     <h2>Nathan in the wild:</h2>
     <ul class="links">
       <li>
@@ -91,14 +91,13 @@
       </li>
       <li>
         <a href="https://nathanwnelsoncom.wordpress.com" target="_blank" rel="noopener noreferrer">
-          tail -f nathans-thoughts.log
+          tail -f nathans_thoughts.log
         </a>
       </li>
     </ul>
-
     <footer>
       Powered by pure HTML.<br>
-      <span style="font-family:monospace;">&#123; Coded with passion by Nathan (and Cursor) &#125;</span>
+      <span style="font-family:monospace;">{ Coded with passion by Nathan (and Cursor) }</span>
     </footer>
   </div>
 </body>
